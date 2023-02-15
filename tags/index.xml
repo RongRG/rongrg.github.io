@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Rong&#39;s Homepage</title>
+    <link>https://rongrg.github.io/tags/</link>
+    <description>Recent content in Tags on Rong&#39;s Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rongrg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>architecture</title>
+      <link>https://rongrg.github.io/tags/architecture/</link>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rongrg.github.io/tags/architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>coding notes</title>
+      <link>https://rongrg.github.io/tags/coding-notes/</link>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rongrg.github.io/tags/coding-notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>neural networks</title>
+      <link>https://rongrg.github.io/tags/neural-networks/</link>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rongrg.github.io/tags/neural-networks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>decision-making under uncertainty</title>
+      <link>https://rongrg.github.io/tags/decision-making-under-uncertainty/</link>
+      <pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://rongrg.github.io/tags/decision-making-under-uncertainty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>optimal control</title>
+      <link>https://rongrg.github.io/tags/optimal-control/</link>
+      <pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://rongrg.github.io/tags/optimal-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reinforcement learning</title>
+      <link>https://rongrg.github.io/tags/reinforcement-learning/</link>
+      <pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://rongrg.github.io/tags/reinforcement-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>risk</title>
+      <link>https://rongrg.github.io/tags/risk/</link>
+      <pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://rongrg.github.io/tags/risk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ML practice</title>
+      <link>https://rongrg.github.io/tags/ml-practice/</link>
+      <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://rongrg.github.io/tags/ml-practice/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

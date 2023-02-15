@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Home on Rong&#39;s Homepage</title>
+    <link>https://rongrg.github.io/</link>
+    <description>Recent content in Home on Rong&#39;s Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rongrg.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LSTM, a special RNN</title>
+      <link>https://rongrg.github.io/posts/2023-02-10-lstm/</link>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rongrg.github.io/posts/2023-02-10-lstm/</guid>
+      <description>What exactly are the LSTM layer, cell, neuron, unit? The number of units is the number of neurons in a layer. The number of units defines the dimension of the hidden states. The dimension of the cell state is the same as that of the hidden state. In the following, I will use $h$ for the length of hidden states &amp;ndash; the number of hidden units. It&amp;rsquo;s called hidden_size in PyTorch and num_units in Tensorflow.</description>
+    </item>
+    
+    <item>
+      <title>Risk-sensitive Distributional Reinforcement Learning</title>
+      <link>https://rongrg.github.io/posts/2022-11-11-riskrl/</link>
+      <pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://rongrg.github.io/posts/2022-11-11-riskrl/</guid>
+      <description>This is a test article.</description>
+    </item>
+    
+    <item>
+      <title>How to Set Up an RL Project Less Complicated?</title>
+      <link>https://rongrg.github.io/posts/2022-05-24-blog-post-1/</link>
+      <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://rongrg.github.io/posts/2022-05-24-blog-post-1/</guid>
+      <description>Setting up an ML envronment can be a tricky thing. Here&amp;rsquo;s what worked for me on how to set up the environment and keep track of experiments.
+Project Setup Directory Structure Cookiecuttet
+Computational Environment Pycharm virtualenv pip install the packages: [1] Unzip the downloaded mjpro150 into ~/.mujoco/mjpro150, and place the mjkey.txt file at ~/.mujoco/mjkey.txt.
+[2] Run pip3 install -U &#39;mujoco-py&amp;lt;1.50.2,&amp;gt;=1.50.1&#39;
+[3] Remove ~/.mujoco/mjpro150/bin/libglfw.3.dylib
+[4] Run brew install llvm boost hdf5 glfw</description>
+    </item>
+    
+    <item>
+      <title>Distill syle test</title>
+      <link>https://rongrg.github.io/posts/2022-02-15-distill/</link>
+      <pubDate>Tue, 10 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rongrg.github.io/posts/2022-02-15-distill/</guid>
+      <description>This is a test article.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://rongrg.github.io/content/_index.md</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rongrg.github.io/content/_index.md</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Advanced Topics in Reinforcement Learning</title>
+      <link>https://rongrg.github.io/teaching/2022-winter-teaching-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rongrg.github.io/teaching/2022-winter-teaching-4/</guid>
+      <description>Summer 2018, Summer 2022, Winter 2022</description>
+    </item>
+    
+    
+    <item>
+      <title>Data Structure and Algorithms</title>
+      <link>https://rongrg.github.io/teaching/2019-summer-teaching-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rongrg.github.io/teaching/2019-summer-teaching-2/</guid>
+      <description>Summer 2019, Summer 2020, Summer 2021, Summer 2022</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Computer Science and Programming</title>
+      <link>https://rongrg.github.io/teaching/2018-winter-teaching-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rongrg.github.io/teaching/2018-winter-teaching-1/</guid>
+      <description>Winter 2018, Winter 2019, Winter 2020, Winter 2021</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://rongrg.github.io/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rongrg.github.io/publications/</guid>
+      <description>Risk Sensitivity under Partially Observable Markov Decision Processes
+Nikolas Höft, Rong Guo, Vaios Laschos, Sein Jeung, Dirk Ostwald und Klaus Obermayer
+Conference on Cognitive Computational Neuroscience (CCN), 2019 paper
+Interaction of instrumental and goal-directed learning modulates prediction error representations in the ventral striatum
+Rong Guo, Wendelin Böhmer, Martin Hebart, Samson Chien, Tobias Sommer, Klaus Obermayer and Jan Gläscher
+Journal of Neuroscience, 2016 paper
+Altered behavioral and neural responsiveness to counterfactual gains in the elderly</description>
+    </item>
+    
+    
+  </channel>
+</rss>
