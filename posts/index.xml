@@ -39,14 +39,5 @@ Computational Environment Pycharm virtualenv pip install the packages: [1] Unzip
 [4] Run brew install llvm boost hdf5 glfw</description>
     </item>
     
-    <item>
-      <title>Distill syle test</title>
-      <link>https://rongrg.github.io/posts/2022-02-15-distill/</link>
-      <pubDate>Tue, 10 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://rongrg.github.io/posts/2022-02-15-distill/</guid>
-      <description>This is a test article.</description>
-    </item>
-    
   </channel>
 </rss>
