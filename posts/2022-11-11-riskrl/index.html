@@ -243,20 +243,27 @@ onload="renderMathInElement(document.body);"></script>
 
         <div class="inner"><nav id="TableOfContents">
   <ul>
-    <li><a href="#value-at-risk-var">Value at risk (VaR)</a></li>
-    <li><a href="#conditional-value-at-risk-cvar">Conditional value at risk (CVaR)</a></li>
-    <li><a href="#entropic-value-at-risk-evar">Entropic value at risk (EVaR)</a></li>
+    <li><a href="#what-is-risk">What is risk?</a></li>
+    <li><a href="#how-do-we-measure-risk">How do we measure risk?</a>
+      <ul>
+        <li><a href="#value-at-risk-var">Value at risk (VaR)</a></li>
+        <li><a href="#conditional-value-at-risk-cvar">Conditional value at risk (CVaR)</a></li>
+        <li><a href="#entropic-value-at-risk-evar">Entropic value at risk (EVaR)</a></li>
+      </ul>
+    </li>
+    <li><a href="#risk-sensitive-reinforcement-learning">Risk-sensitive reinforcement learning</a></li>
+    <li><a href="#references">References</a></li>
   </ul>
 </nav>
         </div>
     </details>
 </div>
 
-  <div class="post-content"><h1 id="what-is-risk">What is risk?<a hidden class="anchor" aria-hidden="true" href="#what-is-risk">#</a></h1>
+  <div class="post-content"><h2 id="what-is-risk">What is risk?<a hidden class="anchor" aria-hidden="true" href="#what-is-risk">#</a></h2>
 <p>Generally, risk might arise whenever there is uncertainty.
 In a financial situation, investment risk can be identified with uncertain monetary loss.
 In a safety-critical engineering system, risk is the undesirable detrimental outcome.</p>
-<h1 id="how-do-we-measure-risk">How do we measure risk?<a hidden class="anchor" aria-hidden="true" href="#how-do-we-measure-risk">#</a></h1>
+<h2 id="how-do-we-measure-risk">How do we measure risk?<a hidden class="anchor" aria-hidden="true" href="#how-do-we-measure-risk">#</a></h2>
 <p>Risk metrics typically involve probability distribution of outcomes and quantified loss for each outcome.</p>
 <p>The standard deviation is a measure of uncertainty, but not a good choice for risk measure. Risk concerns
 only losses, but standard deviation can&rsquo;t account for such asymmetric nature <d-cite key="garcia_comprehensive_2015"></d-cite>.</p>
@@ -280,12 +287,12 @@ This convexity property supports the diversification effect: The risk of a portf
 the sum of the risks of its constituents.</p>
 <p>The translation invariance shows the minimum amount of capital requirements to hedge the risk
 $\rho(X)$, $\rho(X+\rho(X)) = 0$.</p>
-<h2 id="value-at-risk-var">Value at risk (VaR)<a hidden class="anchor" aria-hidden="true" href="#value-at-risk-var">#</a></h2>
-<h2 id="conditional-value-at-risk-cvar">Conditional value at risk (CVaR)<a hidden class="anchor" aria-hidden="true" href="#conditional-value-at-risk-cvar">#</a></h2>
+<h3 id="value-at-risk-var">Value at risk (VaR)<a hidden class="anchor" aria-hidden="true" href="#value-at-risk-var">#</a></h3>
+<h3 id="conditional-value-at-risk-cvar">Conditional value at risk (CVaR)<a hidden class="anchor" aria-hidden="true" href="#conditional-value-at-risk-cvar">#</a></h3>
 <p>A commonly used risk measure is the expected shortfall, also known as the conditional value at risk, i.e., CVaR.</p>
-<h2 id="entropic-value-at-risk-evar">Entropic value at risk (EVaR)<a hidden class="anchor" aria-hidden="true" href="#entropic-value-at-risk-evar">#</a></h2>
-<h1 id="risk-sensitive-reinforcement-learning">Risk-sensitive reinforcement learning<a hidden class="anchor" aria-hidden="true" href="#risk-sensitive-reinforcement-learning">#</a></h1>
-<h1 id="references">References<a hidden class="anchor" aria-hidden="true" href="#references">#</a></h1>
+<h3 id="entropic-value-at-risk-evar">Entropic value at risk (EVaR)<a hidden class="anchor" aria-hidden="true" href="#entropic-value-at-risk-evar">#</a></h3>
+<h2 id="risk-sensitive-reinforcement-learning">Risk-sensitive reinforcement learning<a hidden class="anchor" aria-hidden="true" href="#risk-sensitive-reinforcement-learning">#</a></h2>
+<h2 id="references">References<a hidden class="anchor" aria-hidden="true" href="#references">#</a></h2>
 <p><a href="https://openreview.net/forum?id=wSVEd3Ta42m">Distributional Reinforcement Learning for Risk-Sensitive Policies, Shiau Hong Lim and Ilyas Malik, NeurIPS 2022</a></p>
 
 
