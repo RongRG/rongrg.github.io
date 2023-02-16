@@ -17,15 +17,6 @@
     </item>
     
     <item>
-      <title>Risk-sensitive Distributional Reinforcement Learning</title>
-      <link>https://rongrg.github.io/posts/2022-11-11-riskrl/</link>
-      <pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://rongrg.github.io/posts/2022-11-11-riskrl/</guid>
-      <description>This is a test article.</description>
-    </item>
-    
-    <item>
       <title>How to Set Up an RL Project Less Complicated?</title>
       <link>https://rongrg.github.io/posts/2022-05-24-blog-post-1/</link>
       <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
@@ -37,6 +28,17 @@ Computational Environment Pycharm virtualenv pip install the packages: [1] Unzip
 [2] Run pip3 install -U &#39;mujoco-py&amp;lt;1.50.2,&amp;gt;=1.50.1&#39;
 [3] Remove ~/.mujoco/mjpro150/bin/libglfw.3.dylib
 [4] Run brew install llvm boost hdf5 glfw</description>
+    </item>
+    
+    <item>
+      <title>Risk-sensitive Distributional Reinforcement Learning</title>
+      <link>https://rongrg.github.io/posts/2022-11-11-riskrl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rongrg.github.io/posts/2022-11-11-riskrl/</guid>
+      <description>What is risk? Generally, risk might arise whenever there is uncertainty. In a financial situation, investment risk can be identified with uncertain monetary loss. In a safety-critical engineering system, risk is the undesirable detrimental outcome.
+How do we measure risk? Risk metrics typically involve probability distribution of outcomes and quantified loss for each outcome.
+The standard deviation is a measure of uncertainty, but not a good choice for risk measure.</description>
     </item>
     
   </channel>

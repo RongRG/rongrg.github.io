@@ -116,8 +116,6 @@ onload="renderMathInElement(document.body);"></script>
   }
 }
 </script>
-
-
 </head>
 
 <body class="" id="top">
@@ -192,7 +190,8 @@ onload="renderMathInElement(document.body);"></script>
             </li>
         </ul>
     </nav>
-</header><main class="main">
+</header>
+<main class="main">
 
 <article class="post-single">
   <header class="post-header">
@@ -205,9 +204,6 @@ onload="renderMathInElement(document.body);"></script>
 </div>
   </header> 
 
-
-
-  
 
   <footer class="post-footer">
     <ul class="post-tags">
