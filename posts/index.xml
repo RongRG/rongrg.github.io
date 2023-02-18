@@ -8,12 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 10 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rongrg.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>LSTM, a special RNN</title>
+      <title>What exactly are the LSTM layer, cell, neuron, unit?</title>
       <link>https://rongrg.github.io/posts/2023-02-10-lstm/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://rongrg.github.io/posts/2023-02-10-lstm/</guid>
-      <description>What exactly are the LSTM layer, cell, neuron, unit? The number of units is the number of neurons in a layer. The number of units defines the dimension of the hidden states. The dimension of the cell state is the same as that of the hidden state. In the following, I will use $h$ for the length of hidden states &amp;ndash; the number of hidden units. It&amp;rsquo;s called hidden_size in PyTorch and num_units in Tensorflow.</description>
+      <description>LSTM is a special RNN. The number of units is the number of neurons in a layer.
+The number of units defines the dimension of the hidden states. The dimension of the cell state is the same as that of the hidden state.
+Let $h$ denote the length of hidden states &amp;ndash; the number of hidden units, which is called hidden_size in PyTorch and num_units in Tensorflow.
+An LSTM Neuron The colah blog shows the core idea behind LSTMs, nicely illustrating the 4 gates inside a LSTM neuron.</description>
     </item>
     
     <item>
