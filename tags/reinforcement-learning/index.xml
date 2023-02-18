@@ -6,7 +6,17 @@
     <description>Recent content in reinforcement learning on Rong&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://rongrg.github.io/tags/reinforcement-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://rongrg.github.io/tags/reinforcement-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Risk-sensitive Distributional Reinforcement Learning</title>
+      <link>https://rongrg.github.io/posts/2022-11-11-riskrl/</link>
+      <pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://rongrg.github.io/posts/2022-11-11-riskrl/</guid>
+      <description>Reinforcement learning (RL) is a powerful framework for training agents to maximize cumulative reward, but it typically assumes risk-neutrality. This can lead to suboptimal behavior in practical scenarios where the consequences of unfavorable outcomes can be detrimental.
+What is risk? Generally, risk might arise whenever there is uncertainty. In a financial situation, investment risk can be identified with uncertain monetary loss. In a safety-critical engineering system, risk is the undesirable detrimental outcome.</description>
+    </item>
+    
     <item>
       <title>How to Set Up an RL Project Less Complicated?</title>
       <link>https://rongrg.github.io/posts/2022-05-24-blog-post-1/</link>
@@ -19,16 +29,6 @@ Computational Environment Pycharm virtualenv pip install the packages: [1] Unzip
 [2] Run pip3 install -U &#39;mujoco-py&amp;lt;1.50.2,&amp;gt;=1.50.1&#39;
 [3] Remove ~/.mujoco/mjpro150/bin/libglfw.3.dylib
 [4] Run brew install llvm boost hdf5 glfw</description>
-    </item>
-    
-    <item>
-      <title>Risk-sensitive Distributional Reinforcement Learning</title>
-      <link>https://rongrg.github.io/posts/2022-11-11-riskrl/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rongrg.github.io/posts/2022-11-11-riskrl/</guid>
-      <description>Reinforcement learning (RL) is a powerful framework for training agents to maximize cumulative reward, but it typically assumes risk-neutrality. This can lead to suboptimal behavior in practical scenarios where the consequences of unfavorable outcomes can be detrimental.
-What is risk? Generally, risk might arise whenever there is uncertainty. In a financial situation, investment risk can be identified with uncertain monetary loss. In a safety-critical engineering system, risk is the undesirable detrimental outcome.</description>
     </item>
     
   </channel>
