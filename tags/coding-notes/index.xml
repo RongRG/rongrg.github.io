@@ -8,15 +8,13 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 10 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rongrg.github.io/tags/coding-notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>What exactly are the LSTM layer, cell, neuron, unit?</title>
+      <title>Understanding LSTM Networks: An Overview of Layers, Cells, Neurons, and Units</title>
       <link>https://rongrg.github.io/posts/2023-02-10-lstm/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://rongrg.github.io/posts/2023-02-10-lstm/</guid>
-      <description>LSTM is a special RNN. The number of units is the number of neurons in a layer.
-The number of units defines the dimension of the hidden states. The dimension of the cell state is the same as that of the hidden state.
-Let $h$ denote the length of hidden states &amp;ndash; the number of hidden units, which is called hidden_size in PyTorch and num_units in Tensorflow.
-An LSTM Neuron The colah blog shows the core idea behind LSTMs, nicely illustrating the 4 gates inside a LSTM neuron.</description>
+      <description>LSTM is a type of recurrent neural network (RNN) that is widely used in natural language processing, speech recognition, and other applications where sequential data is important. LSTMs are particularly effective at capturing long-term dependencies in sequences of data, which can be challenging for other types of neural networks.
+Navigating the jargon associated with the components of LSTM networks can be daunting, even for those familiar with neural networks. Terms like &amp;ldquo;cell,&amp;rdquo; &amp;ldquo;layer,&amp;rdquo; &amp;ldquo;unit,&amp;rdquo; and &amp;ldquo;neuron&amp;rdquo; are often thrown around without a clear explanation of their meaning and purpose.</description>
     </item>
     
   </channel>

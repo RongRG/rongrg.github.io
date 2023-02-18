@@ -12,9 +12,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://rongrg.github.io/posts/2022-11-11-riskrl/</guid>
-      <description>What is risk? Generally, risk might arise whenever there is uncertainty. In a financial situation, investment risk can be identified with uncertain monetary loss. In a safety-critical engineering system, risk is the undesirable detrimental outcome.
-How do we measure risk? Risk metrics typically involve probability distribution of outcomes and quantified loss for each outcome.
-The standard deviation is a measure of uncertainty, but not a good choice for risk measure.</description>
+      <description>Reinforcement learning (RL) is a powerful framework for training agents to maximize cumulative reward, but it typically assumes risk-neutrality. This can lead to suboptimal behavior in practical scenarios where the consequences of unfavorable outcomes can be detrimental.
+What is risk? Generally, risk might arise whenever there is uncertainty. In a financial situation, investment risk can be identified with uncertain monetary loss. In a safety-critical engineering system, risk is the undesirable detrimental outcome.</description>
     </item>
     
   </channel>
