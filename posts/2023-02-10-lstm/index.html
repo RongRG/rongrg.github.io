@@ -106,7 +106,7 @@ Navigating the jargon associated with the components of LSTM networks can be dau
   "keywords": [
     "neural networks", "architecture", "coding notes"
   ],
-  "articleBody": " LSTM is a type of recurrent neural network that is widely used in natural language processing, speech recognition, and other applications where sequential data is important. LSTMs are particularly effective at capturing long-term dependencies in sequences of data, which can be challenging for other types of neural networks.\nNavigating the jargon associated with the components of LSTM networks can be daunting, even for those familiar with neural networks. Terms like “cell,” “layer,” “unit,” and “neuron” are often thrown around without a clear explanation of their meaning and purpose. However, understanding these components is crucial for building and fine-tuning LSTM models. So what exactly are these terms, and how do they benefit the network?\n🌟 “unit” = “neuron”\n🌟 “cell” = a collection of “neurons”\n🌟 “layer” = a collection of “cells”\nAn LSTM Neuron The colah blog shows the core idea behind LSTMs, nicely illustrating the 4 gates inside an LSTM neuron.\nFig. 1. LSTM neuron. (Image source: colah blog) The number of units defines the dimension of the hidden states, which is the same as that of the cell state.\nLet $h$ denote the length of hidden states – the number of hidden units, which is called hidden_size in PyTorch and num_units in Tensorflow.\nAn LSTM Cell Here is an example LSTM cell that contains $h=2$ LSTM neurons.\nFig. 2. LSTM cell. (Image source: Raimi Karim) The 4 gates in an LSTM neuron suggest that an LSTM neuron has 4 feed-forward neural networks. If we have a sample input of feature size $i$ (e.g., $i=3$ in Fig. 2), we concatenate the sample input with the hidden state and then pass them ($i+h$) together to the gates. The number of parameters in this LSTM cell can be calculated as: $$ 4 \\times [h(h+i) + h] $$\nThe “layer” is a collection of cells that are stacked on top of each other to form the architecture of the network.\nSo take on the challenge and unlock the full potential of LSTMs!\n",
+  "articleBody": " LSTM is a type of recurrent neural network that is widely used in natural language processing, speech recognition, and other applications where sequential data is important. LSTMs are particularly effective at capturing long-term dependencies in sequences of data, which can be challenging for other types of neural networks.\nNavigating the jargon associated with the components of LSTM networks can be daunting, even for those familiar with neural networks. Terms like “cell,” “layer,” “unit,” and “neuron” are often thrown around without a clear explanation of their meaning and purpose. However, understanding these components is crucial for building and fine-tuning LSTM models. So what exactly are these terms, and how do they benefit the network?\n🌟 “unit” = “neuron”\n🌟 “cell” = a collection of “neurons”\n🌟 “layer” = a stack of “cells”\nAn LSTM Neuron The colah blog shows the core idea behind LSTMs, nicely illustrating the 4 gates inside an LSTM neuron.\nFig. 1. LSTM neuron. (Image source: colah blog) The number of units defines the dimension of the hidden states, which is the same as that of the cell state.\nLet $h$ denote the length of hidden states – the number of hidden units, which is called hidden_size in PyTorch and num_units in Tensorflow.\nAn LSTM Cell Here is an example LSTM cell that contains $h=2$ LSTM neurons.\nFig. 2. LSTM cell. (Image source: Raimi Karim) The 4 gates in an LSTM neuron suggest that an LSTM neuron has 4 feed-forward neural networks. If we have a sample input of feature size $i$ (e.g., $i=3$ in Fig. 2), we concatenate the sample input with the hidden state and then pass them ($i+h$) together to the gates. The number of parameters in this LSTM cell can be calculated as: $$ 4 \\times [h(h+i) + h] $$\nThe “layer” is a collection of cells that are stacked on top of each other to form the architecture of the network.\nSo take on the challenge and unlock the full potential of LSTMs!\n",
   "wordCount" : "330",
   "inLanguage": "en",
   "datePublished": "2023-02-10T00:00:00Z",
@@ -249,7 +249,7 @@ However, understanding these components is crucial for building and fine-tuning 
 So what exactly are these terms, and how do they benefit the network?</p>
 <p>🌟 &ldquo;unit&rdquo; = &ldquo;neuron&rdquo;</p>
 <p>🌟 &ldquo;cell&rdquo; = a collection of &ldquo;neurons&rdquo;</p>
-<p>🌟 &ldquo;layer&rdquo; = a collection of &ldquo;cells&rdquo;</p>
+<p>🌟 &ldquo;layer&rdquo; = a stack of &ldquo;cells&rdquo;</p>
 <h2 id="an-lstm-neuron">An LSTM Neuron<a hidden class="anchor" aria-hidden="true" href="#an-lstm-neuron">#</a></h2>
 <p>The <a href="https://colah.github.io/posts/2015-08-Understanding-LSTMs/">colah blog</a>
 shows the core idea behind LSTMs, nicely illustrating the 4 gates inside
@@ -296,6 +296,11 @@ on top of each other to form the architecture of the network.</p>
       <li><a href="https://rongrg.github.io/tags/coding-notes/">coding notes</a></li>
     </ul>
 <nav class="paginav">
+  <a class="prev" href="https://rongrg.github.io/posts/2023-04-12-saferl/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Safe Reinforcement Learning</span>
+  </a>
   <a class="next" href="https://rongrg.github.io/posts/2022-11-11-riskrl/">
     <span class="title">Next »</span>
     <br>

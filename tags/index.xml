@@ -6,7 +6,25 @@
     <description>Recent content in Tags on Rong&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rongrg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rongrg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>reinforcement learning</title>
+      <link>https://rongrg.github.io/tags/reinforcement-learning/</link>
+      <pubDate>Wed, 12 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rongrg.github.io/tags/reinforcement-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>safety</title>
+      <link>https://rongrg.github.io/tags/safety/</link>
+      <pubDate>Wed, 12 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rongrg.github.io/tags/safety/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>architecture</title>
       <link>https://rongrg.github.io/tags/architecture/</link>
@@ -31,15 +49,6 @@
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://rongrg.github.io/tags/neural-networks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>reinforcement learning</title>
-      <link>https://rongrg.github.io/tags/reinforcement-learning/</link>
-      <pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://rongrg.github.io/tags/reinforcement-learning/</guid>
       <description></description>
     </item>
     
