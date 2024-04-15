@@ -6,7 +6,16 @@
     <description>Recent content in Home on Rong&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rongrg.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://rongrg.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Binomial No-Arbitrage Pricing Model</title>
+      <link>https://rongrg.github.io/posts/2024-04-15-shreve-i-chapter1/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://rongrg.github.io/posts/2024-04-15-shreve-i-chapter1/</guid>
+      <description>Exercise 1.1 Assume in the one-period binomial market of Section 1.1 (The stock price $S$ has two possible outcomes in the next period: it can either go up to $uS_0$ or down to $dS_0$.) that both H and T have positive probability of occurring. Show that condition $0&amp;lt;d&amp;lt;1+r&amp;lt;u$ precludes arbitrage. In other words, show that if $X_0 = 0$ and $$X_1=\Delta_0 S_1 + (1+r)(X_0 - \Delta_0 S_0),$$ then we cannot have $X_1$ strictly positive with positive probability unless $X_1$ is strictly negative with positive probability as well, and this is the case regardless of the choice of the number $\Delta_0$.</description>
+    </item>
+    
     <item>
       <title>Safe Reinforcement Learning</title>
       <link>https://rongrg.github.io/posts/2023-04-12-saferl/</link>
@@ -66,15 +75,13 @@ Computational Environment Pycharm virtualenv pip install the packages: [1] Unzip
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://rongrg.github.io/teaching/2022-winter-teaching-4/</guid>
-      <description>Summer 2018, Summer 2022, Winter 2022
+      <description>Graduate courses that I taught at the Department of Electrical Engineering and Computer Science, Technische Universität Berlin, in the semesters of Summer 2018, Summer 2022, Winter 2022
 There are many great online resources available for learning about reinforcement learning. Here are a few to get you started.
 A (Long) Peek into Reinforcement Learning
 Spinning Up in Deep RL
 David Silver’s RL course at UCL
 Machine Learning
-A basic understanding of machine learning is a great first step to dive deeper into the field.
-Machine Learning Deep Learning Books
-Sutton &amp;amp; Barto’s RL book</description>
+A basic understanding of machine learning is a great first step to dive deeper into the field.</description>
     </item>
     
     
@@ -84,7 +91,7 @@ Sutton &amp;amp; Barto’s RL book</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://rongrg.github.io/teaching/2019-summer-teaching-2/</guid>
-      <description>Summer 2019, Summer 2020, Summer 2021, Summer 2022, Summer 2023</description>
+      <description>Undergraduate courses that I taught at the Department of Electrical Engineering and Computer Science, Technische Universität Berlin, in the semesters of Summer 2019, Summer 2020, Summer 2021, Summer 2022, Summer 2023</description>
     </item>
     
     <item>
@@ -93,7 +100,7 @@ Sutton &amp;amp; Barto’s RL book</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://rongrg.github.io/teaching/2018-winter-teaching-1/</guid>
-      <description>Winter 2018, Winter 2019, Winter 2020, Winter 2021, Winter 2022</description>
+      <description>Undergraduate courses that I taught at the Department of Electrical Engineering and Computer Science, Technische Universität Berlin, in the semesters of Winter 2018, Winter 2019, Winter 2020, Winter 2021, Winter 2022.</description>
     </item>
     
     <item>

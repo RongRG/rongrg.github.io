@@ -3,10 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://rongrg.github.io/</loc>
-    <lastmod>2023-04-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rongrg.github.io/posts/</loc>
-    <lastmod>2023-04-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rongrg.github.io/tags/stochastic-calculus-for-finance/</loc>
+    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rongrg.github.io/tags/</loc>
+    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rongrg.github.io/posts/2024-04-15-shreve-i-chapter1/</loc>
+    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rongrg.github.io/tags/reinforcement-learning/</loc>
     <lastmod>2023-04-12T00:00:00+00:00</lastmod>
@@ -15,9 +24,6 @@
     <lastmod>2023-04-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rongrg.github.io/tags/safety/</loc>
-    <lastmod>2023-04-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rongrg.github.io/tags/</loc>
     <lastmod>2023-04-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rongrg.github.io/tags/architecture/</loc>
