@@ -104,7 +104,7 @@ onload="renderMathInElement(document.body);"></script>
     "stochastic calculus for finance"
   ],
   "articleBody": " Exercise 1.1 Assume in the one-period binomial market of Section 1.1 (The stock price $S$ has two possible outcomes in the next period: it can either go up to $uS_0$ or down to $dS_0$.) that both H and T have positive probability of occurring. Show that condition $0",
-  "wordCount" : "114",
+  "wordCount" : "606",
   "inLanguage": "en",
   "datePublished": "2024-04-15T00:00:00Z",
   "dateModified": "2024-04-15T00:00:00Z",
@@ -205,7 +205,7 @@ onload="renderMathInElement(document.body);"></script>
     <h1 class="post-title">
       The Binomial No-Arbitrage Pricing Model
     </h1>
-    <div class="post-meta"><span title='2024-04-15 00:00:00 +0000 UTC'>April 15, 2024</span>&nbsp;·&nbsp;1 min
+    <div class="post-meta"><span title='2024-04-15 00:00:00 +0000 UTC'>April 15, 2024</span>&nbsp;·&nbsp;3 min
 
 </div>
   </header> <div class="toc">
@@ -216,6 +216,12 @@ onload="renderMathInElement(document.body);"></script>
 
         <div class="inner"><nav id="TableOfContents">
   <ul>
+    <li>
+      <ul>
+        <li><a href="#exercise-11">Exercise 1.1</a></li>
+        <li><a href="#exercise-12">Exercise 1.2</a></li>
+      </ul>
+    </li>
     <li><a href="#reference">Reference</a></li>
   </ul>
 </nav>
@@ -233,8 +239,9 @@ onload="renderMathInElement(document.body);"></script>
         });
     });
 </script>
+<h3 id="exercise-11">Exercise 1.1<a hidden class="anchor" aria-hidden="true" href="#exercise-11">#</a></h3>
 <blockquote>
-<p><strong>Exercise 1.1</strong> Assume in the one-period binomial market of Section 1.1
+<p>Assume in the one-period binomial market of Section 1.1
 (<em>The stock price $S$ has two possible outcomes in the next period:
 it can either go up to $uS_0$ or down to $dS_0$.</em>)
 that
@@ -245,6 +252,68 @@ then we cannot have $X_1$ strictly positive with positive probability unless $X_
 is strictly negative with positive probability as well, and this is the case regardless
 of the choice of the number $\Delta_0$.</p>
 </blockquote>
+<p>In simpler terms, if there&rsquo;s a chance to gain, there must also be a chance to lose, no matter
+how the portfolio is constructed using the stock through $\Delta_0$.</p>
+<p><strong>Proof:</strong>  $$X_1 = \Delta_0 S_1 + (1+r)(-\Delta_0 S_0).$$
+Expanding $S_1$ for the coin toss results:</p>
+<ul>
+<li>If the toss results in H (stock price goes up): $S_1 = uS_0$, then
+$$X_1(H) = \Delta_0 u S_0 + (1+r)(-\Delta_0 S_0) = \Delta_0 S_0 (u-(1+r)).$$</li>
+<li>If the toss results in H (stock price goes down): $S_1 = dS_0$, then
+$$X_1(T) = \Delta_0 d S_0 + (1+r)(-\Delta_0 S_0) = \Delta_0 S_0 (d-(1+r)).$$</li>
+</ul>
+<p>Suppose $S_0&gt;0$. Because $u&gt;1+r$, $u - (1+r)$ is positive.
+Because $d&lt;1+r$, $d-(1+r)$ is negative.</p>
+<p>Therefore, if $\Delta_0&gt;0$,
+$X_1(H)&gt;0$ and $X_1(T) &lt;0$. If $\Delta_0&lt;0$, $X_1(H)&lt;0$ and $X_1(T) &gt;0$.
+If $S_0&lt;0$, we can similarly deduce that $X_1$ must take both positive and negative values,
+depending on whether the stock price goes up or down.</p>
+<p>Thus, under the condition $0&lt;d&lt;1+r&lt;u$, we cannot have $X_1$ always non-negative or always non-positive,
+regardless of the choice of $\Delta_0$</p>
+<h3 id="exercise-12">Exercise 1.2<a hidden class="anchor" aria-hidden="true" href="#exercise-12">#</a></h3>
+<blockquote>
+<p>Suppose in the situation of Example 1.1.1
+(<em>for the particular one-period model,
+let $S_0=4, u=2, d=\frac{1}{2}, K=5, r=\frac{1}{4}$</em>)
+that the option sells for
+1.20 at time zero. Consider an agent who begins with wealth $X_0=0$
+and at time zero buys $\Delta_0$ shares of stock and $\Gamma_0$ options.
+The numbers $\Delta_0$ and $\Gamma_0$ can be either positive or negative
+or zero. This leaves the agent with a cash position of $-4\Delta_0-1.20\Gamma_0$.
+If this is positive, it is invested in the money market; if it is negative,
+it represents money borrowed from the money market.
+At time one, the value of the agent&rsquo;s portfolio of stock, option, and
+money market assets is
+$$X_1 = \Delta_0 S_1 + \Gamma_0 (S_1-5)^+ - \frac{5}{4}(4\Delta_0+1.20\Gamma_0).$$
+Assume that both $H$ and $T$ have positive probability of occurring.
+Show that if there is a positive probability that $X_1$ is positive,
+then there is a positive probability that $X_1$ is negative.
+In other words, one cannot find an arbitrage when the time-zero price of the
+option is 1.20.</p>
+</blockquote>
+<p><strong>Proof:</strong>
+$$X_1 = \Delta_0 S_1 + \Gamma_0 (S_1-5)^+ - \frac{5}{4}(4\Delta_0+1.20\Gamma_0).$$
+Expanding $S_1$ for the coin toss results:</p>
+<ul>
+<li>If the toss results in H (stock price goes up): $S_1 = uS_0$, then
+$$\begin{aligned}
+X_1(H) &amp;= \Delta_0 uS_0+ \Gamma_0 (uS_0-5)^+ - \frac{5}{4}(4\Delta_0+1.20\Gamma_0)\\
+&amp;= \Delta_0 \times 2 \times 4 + \Gamma_0 (2 \times 4 - 5)^+ - (5\Delta_0 +1.50\Gamma_0)\\
+&amp;= 3\Delta_0+1.5\Gamma_0.
+\end{aligned}$$</li>
+<li>If the toss results in H (stock price goes down): $S_1 = dS_0$, then
+$$\begin{aligned}
+X_1(T) &amp;= \Delta_0 dS_0+ \Gamma_0 (dS_0-5)^+ - \frac{5}{4}(4\Delta_0+1.20\Gamma_0)\\
+&amp;= \Delta_0 \times \frac{1}{2} \times 4 + \Gamma_0 (\frac{1}{2} \times 4-5)^+ - (5\Delta_0 +1.50\Gamma_0)\\
+&amp;= -(3 \Delta_0 + 1.50 \Gamma_0).
+\end{aligned}$$</li>
+</ul>
+<p>If $\Delta_0$ and $\Gamma_0$ are set to make $X_1(H)$ positive,
+$X_1(T)$ is definitely negative. Similarly,
+if $\Delta_0$ and $\Gamma_0$ are set to make $X_1(T)$ positive,
+$X_1(H)$ is definitely negative.</p>
+<p>Thus, with the option priced at 1.20, there&rsquo;s no arbitrage strategy that
+guarantees a profit in both states of the stock.</p>
 <h2 id="reference">Reference<a hidden class="anchor" aria-hidden="true" href="#reference">#</a></h2>
 <ol>
 <li>Steven E. Shreve, Stochastic Calculus for Finance I, The Binomial Asset Pricing Model</li>
