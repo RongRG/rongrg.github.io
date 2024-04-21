@@ -104,7 +104,7 @@ onload="renderMathInElement(document.body);"></script>
     "stochastic calculus for finance"
   ],
   "articleBody": " Exercise 1.1 Assume in the one-period binomial market of Section 1.1 (The stock price $S$ has two possible outcomes in the next period: it can either go up to $uS_0$ or down to $dS_0$.) that both H and T have positive probability of occurring. Show that condition $0",
-  "wordCount" : "606",
+  "wordCount" : "1115",
   "inLanguage": "en",
   "datePublished": "2024-04-15T00:00:00Z",
   "dateModified": "2024-04-15T00:00:00Z",
@@ -205,7 +205,7 @@ onload="renderMathInElement(document.body);"></script>
     <h1 class="post-title">
       The Binomial No-Arbitrage Pricing Model
     </h1>
-    <div class="post-meta"><span title='2024-04-15 00:00:00 +0000 UTC'>April 15, 2024</span>&nbsp;·&nbsp;3 min
+    <div class="post-meta"><span title='2024-04-15 00:00:00 +0000 UTC'>April 15, 2024</span>&nbsp;·&nbsp;6 min
 
 </div>
   </header> <div class="toc">
@@ -220,6 +220,9 @@ onload="renderMathInElement(document.body);"></script>
       <ul>
         <li><a href="#exercise-11">Exercise 1.1</a></li>
         <li><a href="#exercise-12">Exercise 1.2</a></li>
+        <li><a href="#exercise-13">Exercise 1.3</a></li>
+        <li><a href="#exercise-14">Exercise 1.4</a></li>
+        <li><a href="#exercise-15">Exercise 1.5</a></li>
       </ul>
     </li>
     <li><a href="#reference">Reference</a></li>
@@ -259,7 +262,7 @@ Expanding $S_1$ for the coin toss results:</p>
 <ul>
 <li>If the toss results in H (stock price goes up): $S_1 = uS_0$, then
 $$X_1(H) = \Delta_0 u S_0 + (1+r)(-\Delta_0 S_0) = \Delta_0 S_0 (u-(1+r)).$$</li>
-<li>If the toss results in H (stock price goes down): $S_1 = dS_0$, then
+<li>If the toss results in T (stock price goes down): $S_1 = dS_0$, then
 $$X_1(T) = \Delta_0 d S_0 + (1+r)(-\Delta_0 S_0) = \Delta_0 S_0 (d-(1+r)).$$</li>
 </ul>
 <p>Suppose $S_0&gt;0$. Because $u&gt;1+r$, $u - (1+r)$ is positive.
@@ -301,7 +304,7 @@ X_1(H) &amp;= \Delta_0 uS_0+ \Gamma_0 (uS_0-5)^+ - \frac{5}{4}(4\Delta_0+1.20\Ga
 &amp;= \Delta_0 \times 2 \times 4 + \Gamma_0 (2 \times 4 - 5)^+ - (5\Delta_0 +1.50\Gamma_0)\\
 &amp;= 3\Delta_0+1.5\Gamma_0.
 \end{aligned}$$</li>
-<li>If the toss results in H (stock price goes down): $S_1 = dS_0$, then
+<li>If the toss results in T (stock price goes down): $S_1 = dS_0$, then
 $$\begin{aligned}
 X_1(T) &amp;= \Delta_0 dS_0+ \Gamma_0 (dS_0-5)^+ - \frac{5}{4}(4\Delta_0+1.20\Gamma_0)\\
 &amp;= \Delta_0 \times \frac{1}{2} \times 4 + \Gamma_0 (\frac{1}{2} \times 4-5)^+ - (5\Delta_0 +1.50\Gamma_0)\\
@@ -314,6 +317,85 @@ if $\Delta_0$ and $\Gamma_0$ are set to make $X_1(T)$ positive,
 $X_1(H)$ is definitely negative.</p>
 <p>Thus, with the option priced at 1.20, there&rsquo;s no arbitrage strategy that
 guarantees a profit in both states of the stock.</p>
+<h3 id="exercise-13">Exercise 1.3<a hidden class="anchor" aria-hidden="true" href="#exercise-13">#</a></h3>
+<blockquote>
+<p>In the one-period binomial model of Section 1.1, suppose we want to determine
+the price at time zero of the derivative security $V_1=S_1$ (i.e., the derivative
+security pays off the stock price.) (This can be regarded as a European call with
+strike price $K=0$). What is the time-zero price $V_0$ given by the risk-neutral
+pricing formula $V_0 = \frac{1}{1+r}[\tilde{p}V_1(H)+\tilde{q}V_1(T)]$?</p>
+</blockquote>
+<p><strong>Solution:</strong></p>
+<p>Since $V_1=S_1$, if the stock goes up $V_1(H) = S_1(H) = u S_0$; If the stock goes
+down $V_1(T) = S_1(T) = d S_0$.</p>
+<p>The risk neutral probabilities $\tilde{p}$ and $\tilde{q}$ can be solved for
+and are given by the formulas:
+$$\tilde{p} = \frac{1+r-d}{u-d},$$ and
+$$\tilde{q} = \frac{u-1-r}{u-d}.$$</p>
+<p>Inserting $\tilde{p}$ and $\tilde{q}$ into the risk-neutral pricing formula, we have
+$$\begin{aligned}
+V_0 &amp;= \frac{1}{1+r}\left[\frac{1+r-d}{u-d}u S_0 + \frac{u-1-r}{u-d}d S_0\right]\\
+&amp;= \frac{1}{1+r}\left[\frac{(1+1)(u-d)}{u-d}S_0\right]\\
+&amp;= S_0
+\end{aligned}$$</p>
+<h3 id="exercise-14">Exercise 1.4<a hidden class="anchor" aria-hidden="true" href="#exercise-14">#</a></h3>
+<blockquote>
+<p>In the proof of Theorem 1.2.2, show under the induction hypothesis that
+$$
+X_{n+1}(\omega_1 \omega_2 \cdots \omega_n T) = V_{n+1}(\omega_1 \omega_2 \cdots \omega_n T).
+$$</p>
+</blockquote>
+<p><strong>Proof:</strong> Using the <em>wealth equation</em> $X_{n+1} = \Delta_n S_{n+1} + (1+r)(X_n - \Delta_n S_n)$
+to compute $X_{n+1}(\omega_1 \omega_2 \cdots \omega_n T)$,
+$$
+X_{n+1}(\omega_1 \omega_2 \cdots \omega_n T) =
+\Delta_n(\omega_1 \omega_2 \cdots \omega_n) d S_{n}(\omega_1 \omega_2 \cdots \omega_n)
++ (1+r)(X_n(\omega_1 \omega_2 \cdots \omega_n) - \Delta_n(\omega_1 \omega_2 \cdots \omega_n) S_n(\omega_1 \omega_2 \cdots \omega_n))
+$$
+suppressing $\omega_1 \omega_2 \cdots \omega_n$ and write the equation as
+$$
+X_{n+1}(T) = \Delta_n d S_{n} + (1+r)(X_n - \Delta_n S_n).
+$$
+Substituting
+$$
+\Delta_n = \frac{V_{n+1}(H)-V_{n+1}(T)}{(u-d)S_n}
+$$
+into $X_{n+1}(T)$ and using the induction hypothesis</p>
+<p>$X_{n}(\omega_1 \omega_2 \cdots \omega_n) = V_{n}(\omega_1 \omega_2 \cdots \omega_n)$ for all
+$\omega_1 \omega_2 \cdots \omega_n,$</p>
+<p>and the definition
+$$
+V_{n}(\omega_1 \omega_2 \cdots \omega_n)
+= \frac{1}{1+r}[\tilde{p}V_{n+1}(\omega_1 \omega_2 \cdots \omega_n H) +
+\tilde{q}V_{n}(\omega_1 \omega_2 \cdots \omega_n T)],
+$$
+we have
+$$
+\begin{aligned}
+X_{n+1}(T) &amp;= (1+r)X_n + \Delta_nS_n(d-(1+r)) \\
+&amp;= (1+r)V_n + \frac{(V_{n+1}(H)-V_{n+1}(T))(d-(1+r)}{u-d} \\
+&amp;= (1+r)V_n -\tilde{p}V_{n+1}(H) + \tilde{p}V_{n+1}(T)\\
+&amp;= \tilde{p}V_{n+1}(H) + \tilde{q}V_{n+1}(T) -\tilde{p}V_{n+1}(H) + \tilde{p}V_{n+1}(T)\\
+&amp;= V_{n+1}(T).
+\end{aligned}
+$$</p>
+<p>Reinstating the suppressed coin tosses $\omega_1 \omega_2 \cdots \omega_n$,
+$$
+X_{n+1}(\omega_1 \omega_2 \cdots \omega_n T) = V_{n+1}(\omega_1 \omega_2 \cdots \omega_n T).
+$$</p>
+<h3 id="exercise-15">Exercise 1.5<a hidden class="anchor" aria-hidden="true" href="#exercise-15">#</a></h3>
+<p>In example 1.2.4, we considered an agent who sold the look-back option for $V_0=1.376$ and
+bought $\Delta_0 = 0.1733$ shares of stock at time zero. At time one, if the stock
+goes up, she has a portfolio valued at $V_1(H) = 2.24$. Assume that she now takes a position of
+$\Delta_1(H)=\frac{V_2(HH) - V_2(HT)}{S_2(HH) - S_2(HT)}$ in the stock. Show that,
+at time two, if stock goes up agin, she will have a portfolio valued at
+$V_2(HH) =3.20$, whereas if the stock goes dow, her portfolio will be worth
+$V_2(HT) =2.40$. Finally, under the assumption that the stock goes up in the first period
+and down in the second period, assume the agent takes a position of
+$\Delta_2(HT)=\frac{V_3(HTH) - V_3(HTT)}{S_3(HTH) - S_3(HTT)}$ in the stock.
+Show that, at time three, if the stock goes up in the third period, she will have a portfolio
+value at $V_3(HTH)=0$, whereas if the stock goes dow, her portfolio will be
+worth $V_3(HTT)=6$. In other words, she has hedged her short position in the option.</p>
 <h2 id="reference">Reference<a hidden class="anchor" aria-hidden="true" href="#reference">#</a></h2>
 <ol>
 <li>Steven E. Shreve, Stochastic Calculus for Finance I, The Binomial Asset Pricing Model</li>
